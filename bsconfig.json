@@ -4,19 +4,19 @@
     "src",
     {
       "dir": "examples",
-      "type" : "dev",
-      "subdirs": true,
-    },
+      "type": "dev",
+      "subdirs": true
+    }
   ],
   "bs-dependencies": ["reason-react"],
   "reason": {
-    "react-jsx": 2,
+    "react-jsx": 3
   },
   "refmt": 3,
   "bsc-flags": ["-bs-super-errors"],
   "package-specs": {
     "module": "commonjs",
-    "in-source": true,
+    "in-source": true
   },
-  "suffix": ".bs.js",
+  "suffix": ".bs.js"
 }
