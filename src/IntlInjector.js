@@ -9,4 +9,4 @@ const IntlInjector = ReactIntl.injectIntl(
   }
 );
 
-module.exports.InjectIntl = IntlInjector;
+exports.IntlInjector = IntlInjector;
